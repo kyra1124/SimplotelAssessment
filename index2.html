@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Layout</title>
+<style>
+    .body{
+        background-color: #fefbd8;
+    }
+    .container {
+        display: flex;
+        align-items: flex-start;
+    }
+    .left-side {
+        flex: 1;
+    }
+    .right-side {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+    }
+    .top-images {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 20px;
+    }
+    .bottom-image {
+        margin-right: 20px;
+    }
+    img {
+        max-width: 100%;
+    }
+    .card1 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-image {
+        flex: 1;
+
+    }
+    .card {
+        flex: 1;
+        background-color: #de4343;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 320px;
+        text-align: left;
+        padding-left: 20px;
+    }
+</style>
+</head>
+<body style="background-color: #fefbd8; text-align: center;">
+    <br>
+    <br>
+    <br>
+
+<div class="container">
+   
+    <div class="right-side">
+        <div class="top-images">
+            <div class="card1">
+                <div class="card-image">
+                    <img src="pexels-rachel-claire-6752433.jpg" alt="Image 4" height="200px" width="200px">
+                    <img src="pexels-eva-bronzini-6141651.jpg" alt="Image 6" height="200px" width="200px">
+                </div>
+                <div class="card-image">
+                    <img src="pexels-mister-mister-3434523.jpg" alt="Image 5" height="400px" width="300px">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+   
+    <div class="card">
+        
+      <p>LOREM IPSUM</p>
+      <h1>LOREM IPSUM<br>
+               SET ADEMIR</h1>
+               <div>
+      Click <img src="icons8-arrow-30.png" alt="" height="15px" width="15px">
+      <br>
+      <br>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
